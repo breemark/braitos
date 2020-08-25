@@ -8402,7 +8402,7 @@
         <a href="https://www.instagram.com/gr55342/" target="_blank">
             <img style="width: 150px; float: left;" src="{{ asset('img/logo.png') }}" title="Logo by Tong" />
         </a>
-        <h1>B.R.A.I.T.O.S</h1>
+        <h1>B.R.A.I.T.O.S.</h1>
         <p>Bug Reporting and Issue Tracker Online System</p>
         <small> <a href="http://britomaximiliano.com" target="_blank">Brito Maximiliano</a> </small>
     </div>

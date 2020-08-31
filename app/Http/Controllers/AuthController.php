@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\Controller;
+use App\Http\Requests\UserRegisterRequest;
 use Illuminate\Support\Facades\Validator;
 use App\User;
 
@@ -21,17 +22,19 @@ class AuthController extends Controller
     }
 
 
-    public function register(Request $request)
+    public function register(UserRegisterRequest $request)
     {
-        $validator = Validator::make($request->all(), [
-            'name' => 'required|string|max:255',
-            'email' => 'required|string|email|max:255|unique:users',
-            'password' => 'required|min:6|confirmed',
-        ]);
 
-        if ($validator->fails()) {
-            return ['error' => $validator->errors()];
-        }
+
+        // $validator = Validator::make($request->all(), [
+        //     'name' => 'required|string|max:255',
+        //     'email' => 'required|string|email|max:255|unique:users',
+        //     'password' => 'required|min:6|confirmed',
+        // ]);
+
+        // if ($validator->fails()) {
+        //     return ['error' => $validator->errors()];
+        // }
 
         $user = User::create([
             'name'    => $request->name,

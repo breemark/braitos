@@ -28,7 +28,7 @@ class TaskStoreRequest extends FormRequest
             'content' => 'string',
             'finished' => '',
             'deadline' => '',
-            'project_id' => 'required|integer|exists:projects,id',
+            'project_id' => 'integer|exists:projects,id',
         ];
     }
 }

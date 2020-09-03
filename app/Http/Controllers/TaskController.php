@@ -14,9 +14,9 @@ use Illuminate\Support\Facades\DB;
 class TaskController extends Controller
 {
 
-    public function index(Request $request)
+    public function index()
     {
-        $tasks = Task::all();
+        $tasks = Task::paginate(15);
 
         return new TaskCollection($tasks);
     }

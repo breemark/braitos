@@ -12,13 +12,9 @@ use Illuminate\Http\Request;
 
 class ProjectController extends Controller
 {
-    /**
-     * @param \Illuminate\Http\Request $request
-     * @return \App\Http\Resources\ProjectCollection
-     */
-    public function index(Request $request)
+    public function index()
     {
-        $projects = Project::all();
+        $projects = Project::paginate(10);
 
         return new ProjectCollection($projects);
     }

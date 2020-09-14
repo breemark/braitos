@@ -3,6 +3,8 @@
 namespace App\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
+use Illuminate\Support\Facades\DB;
+
 
 class Task extends JsonResource
 {
@@ -21,6 +23,7 @@ class Task extends JsonResource
             'finished' => $this->finished,
             'deadline' => $this->deadline,
             'project_id' => $this->project_id,
+            'users_id' => DB::table('task_user')->where('task_id', $this->id)->pluck('user_id'),
         ];
     }
 }

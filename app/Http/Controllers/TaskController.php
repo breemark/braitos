@@ -81,31 +81,24 @@ class TaskController extends Controller
             'code' => 404,
             'message' => 'Task: ' . $task_id . ' does not exist'
         ];
+
         if (!Task::find($task_id)) {
             return response()->json(['errors' => $task_not_exist]);
         }
 
-        $users_array = $request->users_id;
-        $user_id_string = '';
+        $user_id = $request->user_id;
 
-        foreach ($users_array as $user_id) {
 
-            if (DB::table('task_user')->where('task_id', $task_id)->where('user_id', $user_id)->exists()) {
-                continue;
-            }
-
-            DB::table('task_user')->insert(
-                ['task_id' => $task_id, 'user_id' => $user_id]
-            );
-
-            $user_id_string .= $user_id . ',';
+        if (DB::table('task_user')->where('task_id', $task_id)->where('user_id', $user_id)->exists()) {
+            return response()->json(['errors' => 'User already assigned to this task']);
         }
 
-        if ($user_id_string == '') {
-            return ['message' => 'Users already assigned to task'];
-        }
+        DB::table('task_user')->insert(
+            ['task_id' => $task_id, 'user_id' => $user_id]
+        );
 
-        $success_message = 'Users: ' . $user_id_string . ' assigned to task: ' . $task_id;
+
+        $success_message = 'Users: ' . $user_id . ' assigned to task: ' . $task_id;
 
         return ['message' => $success_message];
     }

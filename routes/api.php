@@ -53,7 +53,8 @@ Route::group(['middleware' => ['auth:api']], function () {
     Route::get('tasks/{task}', 'TaskController@show');
     Route::match(['put', 'patch'], 'tasks/{task}', 'TaskController@update')->middleware('isAdmin');
     Route::delete('tasks/{task}', 'TaskController@destroy')->middleware('isAdmin');
-    Route::put('tasks/{task_id}/assign_task', 'TaskController@assign_task_user')->middleware('isAdmin');
+    Route::put('tasks/{task_id}/assign_user', 'TaskController@assign_task_user')->middleware('isAdmin');
+    Route::delete('tasks/{task_id}/remove_user/{user_id}', 'TaskController@remove_task_user')->middleware('isAdmin');
     Route::put('tasks/{task_id}/complete', 'TaskController@toggle_complete'); //IsAdmin or isAssigned
     Route::get('my_tasks', 'TaskController@mytasks');
 });

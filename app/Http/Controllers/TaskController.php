@@ -98,7 +98,16 @@ class TaskController extends Controller
         );
 
 
-        $success_message = 'Users: ' . $user_id . ' assigned to task: ' . $task_id;
+        $success_message = 'User: ' . $user_id . ' assigned to task: ' . $task_id;
+
+        return ['message' => $success_message];
+    }
+
+    public function remove_task_user($task_id, $user_id)
+    {
+        DB::table('task_user')->where('task_id', $task_id)->where('user_id', $user_id)->delete();
+
+        $success_message = 'User: ' . $user_id . ' removed from task: ' . $task_id;
 
         return ['message' => $success_message];
     }

@@ -28,7 +28,7 @@ class TaskStoreRequest extends FormRequest
             'content' => '',
             'finished' => '',
             'deadline' => '',
-            'project_id' => 'integer',
+            'project_id' => '',
         ];
     }
 }

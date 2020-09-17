@@ -25,9 +25,10 @@ class TaskUpdateRequest extends FormRequest
     {
         return [
             'title' => 'required|string|max:400',
-            'content' => 'string',
+            'content' => '',
             'finished' => '',
             'deadline' => '',
+            'project_id' => '',
         ];
     }
 }

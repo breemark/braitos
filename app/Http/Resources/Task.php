@@ -2,6 +2,7 @@
 
 namespace App\Http\Resources;
 
+use App\Project;
 use Illuminate\Http\Resources\Json\JsonResource;
 use Illuminate\Support\Facades\DB;
 
@@ -23,10 +24,9 @@ class Task extends JsonResource
             'finished' => $this->finished,
             'deadline' => $this->deadline,
 
-            'project' => DB::table('projects')
-                ->select('id', 'title')
+            'project' => Project::select('id', 'title')
                 ->where('id', $this->project_id)
-                ->get(),
+                ->first(),
 
             'users_assigned' => DB::table('users')
                 ->join('task_user', 'users.id', '=', 'task_user.user_id')

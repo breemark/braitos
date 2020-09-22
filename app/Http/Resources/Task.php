@@ -23,7 +23,11 @@ class Task extends JsonResource
             'finished' => $this->finished,
             'deadline' => $this->deadline,
             'project_id' => $this->project_id,
-            'users_id' => DB::table('task_user')->where('task_id', $this->id)->pluck('user_id'),
+            'users_assigned' => DB::table('users')
+                ->join('task_user', 'users.id', '=', 'task_user.user_id')
+                ->select('task_user.user_id as id', 'users.name')
+                ->where('task_user.task_id', $this->id)
+                ->get()
         ];
     }
 }

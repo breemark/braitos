@@ -44,7 +44,7 @@ Route::group(['middleware' => ['auth:api']], function () {
     Route::get('projects/{project}', 'ProjectController@show');
     Route::match(['put', 'patch'], 'projects/{project}', 'ProjectController@update')->middleware('isAdmin');
     Route::delete('projects/{project}', 'ProjectController@destroy')->middleware('isAdmin');
-    Route::get('projects/{project_id}/tasks', 'ProjectController@get_project_tasks');
+    // Route::get('projects/{project_id}/tasks', 'ProjectController@get_project_tasks');
 
     // Tasks
     Route::apiResource('tasks', 'TaskController');
@@ -56,5 +56,5 @@ Route::group(['middleware' => ['auth:api']], function () {
     Route::put('tasks/{task_id}/assign_user', 'TaskController@assign_task_user')->middleware('isAdmin');
     Route::delete('tasks/{task_id}/remove_user/{user_id}', 'TaskController@remove_task_user')->middleware('isAdmin');
     Route::put('tasks/{task_id}/complete', 'TaskController@toggle_complete'); //IsAdmin or isAssigned
-    Route::get('my_tasks', 'TaskController@mytasks');
+    // Route::get('my_tasks', 'TaskController@mytasks');
 });

@@ -14,8 +14,20 @@ use Illuminate\Support\Facades\DB;
 class TaskController extends Controller
 {
 
-    public function index()
+    public function index(Request $request)
     {
+
+        $user = $request->get('user');
+
+        if ($user) {
+
+            $tasks = DB::table('tasks')
+                ->join('task_user', 'task_id', 'tasks.id')
+                ->where('task_user.user_id', $user)
+                ->get();
+
+            return new TaskCollection($tasks);
+        }
         $tasks = Task::all();
 
         return new TaskCollection($tasks);
@@ -62,17 +74,17 @@ class TaskController extends Controller
         ]);
     }
 
-    public function mytasks()
-    {
-        $my_id = Auth::user()->id;
+    // public function mytasks()
+    // {
+    //     $my_id = Auth::user()->id;
 
-        $my_tasks = DB::table('task_user')
-            ->select('task_id')
-            ->where('user_id', $my_id)
-            ->get();
+    //     $my_tasks = DB::table('task_user')
+    //         ->select('task_id')
+    //         ->where('user_id', $my_id)
+    //         ->get();
 
-        return $my_tasks;
-    }
+    //     return $my_tasks;
+    // }
 
     public function assign_task_user(Request $request, $task_id)
     {

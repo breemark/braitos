@@ -25,7 +25,7 @@ class ProjectUpdateRequest extends FormRequest
     {
         return [
             'title' => 'required|string|max:400',
-            'content' => 'string',
+            'content' => '',
         ];
     }
 }

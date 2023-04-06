@@ -5,8 +5,8 @@
 <meta name=viewport content="width=device-width,initial-scale=1">
 <meta name="description" content="API for Managing Projects and Tasks">
 <meta name="keywords" content="REST API, PHP, Server Side">
-<meta name="author" content="Brito Maximiliano Developer">
-<title>BRAITOS API</title>
+<meta name="author" content="Maximiliano Torres Developer">
+<title>Torres - Task Maker v1</title>
 <style media=screen>
     /*!* Bootstrap v3.3.7 (http://getbootstrap.com)
 * Copyright 2011-2016 Twitter, Inc.
@@ -8402,7 +8402,7 @@
         <a href="https://www.instagram.com/gr55342/" target="_blank">
             <img style="width: 150px; float: left;" src="{{ asset('img/logo.png') }}" title="Logo by Tong" />
         </a>
-        <h1>TASK MAKER API 1.0</h1>
+        <h1>TASK MAKER API v1.0</h1>
         <p>Bug Tracker & Ticket System Restful API </p>
         <small>By <a href="http://torres93.com" target="_blank">Maximiliano Torres</a> </small>
     </div>
@@ -8411,7 +8411,7 @@
     <div class=row>
         <div class="col-md-12 collection-intro">
             <p>
-                <h3>Task Maker API</h3>
+                <h3>Task Maker API v1</h3>
                 <p>This is a RESTFUL API for managing projects, tasks and users.
                     Administrator Users can create and alter projects, users, tasks, assign tasks to users and mark tasks as
                     complete.
@@ -8752,7 +8752,7 @@
                                                                             <tr>
                                                                                 <td>Authorization
                                                                                 <td>Bearer
-                                                                                    eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd3d3LmJyYWl0b3MuY29tXC9hcGlcL3YxXC9hdXRoXC9sb2dpbiIsImlhdCI6MTU5ODMyNjMzNywiZXhwIjoxNTk4MzI5OTM3LCJuYmYiOjE1OTgzMjYzMzcsImp0aSI6Ik1xZUh4TTFNd0JJb1JwNnAiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.-Io6Oua2hanc-baw38D549415jHs1WFTEFYAL8ak1pc
+                                                                                    eyJ0eXAiOiJKV1QiLCJhbGciOiJIU1I1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd3d3LmJyYWl0b3MuY29tXC9hcGlcL3YxXC9hdXRoXC9sb2dpbiIsImlhdCI6MTU5ODMyNjMzNywiZXhwIjoxNTk4MzI5OTM3LCJuYmYiOjE1OTgzMjYzMzcsImp0aSI6Ik1xZUh4TTFNd0JJb1JwNnAiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.-Io6Oua2hanc-baw38D549415jHs1WFTEFYAL8ak1pc
                                                                                 <td>
                                                                             <tr>
                                                                                 <td>Accept

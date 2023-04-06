@@ -8482,7 +8482,7 @@
                                                                         &nbsp;|&nbsp;
                                                                         <strong class="request-method border-success">POST</strong>
                                                                         &nbsp;
-                                                                        https://www.taskmaker.in/api/v1/auth/login</h4>
+                                                                        https://www.tm.torres93.com/api/v1/auth/login</h4>
                                                                 </a></div>
                                                             <div id=collapse-Auth-LoginUser class="panel-collapse collapse">
                                                                 <div class=panel-body>
@@ -8500,7 +8500,7 @@
                                                                         &nbsp;|&nbsp;
                                                                         <strong class="request-method border-success">POST</strong>
                                                                         &nbsp;
-                                                                        https://www.taskmaker.in/api/v1/auth/logout</h4>
+                                                                        https://www.tm.torres93.com/api/v1/auth/logout</h4>
                                                                 </a></div>
                                                             <div id=collapse-Auth-LogoutUser class="panel-collapse collapse">
                                                                 <div class=panel-body>
@@ -8527,7 +8527,7 @@
                                                                             User</strong> &nbsp;|&nbsp;
                                                                         <strong class="request-method border-success">POST</strong>
                                                                         &nbsp;
-                                                                        https://www.taskmaker.in/api/v1/auth/refresh</h4>
+                                                                        https://www.tm.torres93.com/api/v1/auth/refresh</h4>
                                                                 </a></div>
                                                             <div id=collapse-Auth-RefreshUser class="panel-collapse collapse">
                                                                 <div class=panel-body>
@@ -8559,7 +8559,7 @@
                                                                             User</strong> &nbsp;|&nbsp;
                                                                         <strong class="request-method border-success">POST</strong>
                                                                         &nbsp;
-                                                                        https://www.taskmaker.in/api/v1/auth/register</h4>
+                                                                        https://www.tm.torres93.com/api/v1/auth/register</h4>
                                                                 </a></div>
                                                             <div id=collapse-Auth-RegisterUser class="panel-collapse collapse">
                                                                 <div class=panel-body>
@@ -8592,7 +8592,7 @@
                                                                         &nbsp;|&nbsp;
                                                                         <strong class="request-method border-info">GET</strong>
                                                                         &nbsp;
-                                                                        https://www.taskmaker.in/api/v1/auth/me</h4>
+                                                                        https://www.tm.torres93.com/api/v1/auth/me</h4>
                                                                 </a></div>
                                                             <div id=collapse-Auth-ShowUser class="panel-collapse collapse">
                                                                 <div class=panel-body>
@@ -8624,7 +8624,7 @@
                                                                         &nbsp;|&nbsp;
                                                                         <strong class="request-method border-warning">PUT</strong>
                                                                         &nbsp;
-                                                                        https://www.taskmaker.in/api/v1/auth/me</h4>
+                                                                        https://www.tm.torres93.com/api/v1/auth/me</h4>
                                                                 </a></div>
                                                             <div id=collapse-Auth-UpdateUser class="panel-collapse collapse">
                                                                 <div class=panel-body>
@@ -8674,7 +8674,7 @@
                                                                             Destroy</strong> &nbsp;|&nbsp;
                                                                         <strong class="request-method border-danger">DELETE</strong>
                                                                         &nbsp;
-                                                                        https://www.taskmaker.in/api/v1/projects/2</h4>
+                                                                        https://www.tm.torres93.com/api/v1/projects/2</h4>
                                                                 </a></div>
                                                             <div id=collapse-ProjectsControlOperations-ProjectDestroy class="panel-collapse collapse">
                                                                 <div class=panel-body>
@@ -8705,7 +8705,7 @@
                                                                             Show</strong> &nbsp;|&nbsp;
                                                                         <strong class="request-method border-info">GET</strong>
                                                                         &nbsp;
-                                                                        https://www.taskmaker.in/api/v1/projects/1</h4>
+                                                                        https://www.tm.torres93.com/api/v1/projects/1</h4>
                                                                 </a></div>
                                                             <div id=collapse-ProjectsControlOperations-ProjectShow class="panel-collapse collapse">
                                                                 <div class=panel-body>
@@ -8737,7 +8737,7 @@
                                                                             Store</strong> &nbsp;|&nbsp;
                                                                         <strong class="request-method border-success">POST</strong>
                                                                         &nbsp;
-                                                                        https://www.taskmaker.in/api/v1/projects</h4>
+                                                                        https://www.tm.torres93.com/api/v1/projects</h4>
                                                                 </a></div>
                                                             <div id=collapse-ProjectsControlOperations-ProjectStore class="panel-collapse collapse">
                                                                 <div class=panel-body>
@@ -8774,7 +8774,7 @@
                                                                             Show</strong> &nbsp;|&nbsp;
                                                                         <strong class="request-method border-info">GET</strong>
                                                                         &nbsp;
-                                                                        https://www.taskmaker.in/api/v1/projects/1/tasks</h4>
+                                                                        https://www.tm.torres93.com/api/v1/projects/1/tasks</h4>
                                                                 </a></div>
                                                             <div id=collapse-ProjectsControlOperations-ProjectTasksShow class="panel-collapse collapse">
                                                                 <div class=panel-body>
@@ -8806,7 +8806,7 @@
                                                                             Update</strong> &nbsp;|&nbsp;
                                                                         <strong class="request-method border-warning">PUT</strong>
                                                                         &nbsp;
-                                                                        https://www.taskmaker.in/api/v1/projects/3</h4>
+                                                                        https://www.tm.torres93.com/api/v1/projects/3</h4>
                                                                 </a></div>
                                                             <div id=collapse-ProjectsControlOperations-ProjectUpdate class="panel-collapse collapse">
                                                                 <div class=panel-body>
@@ -8842,7 +8842,7 @@
                                                                             Index</strong> &nbsp;|&nbsp;
                                                                         <strong class="request-method border-info">GET</strong>
                                                                         &nbsp;
-                                                                        https://www.taskmaker.in/api/v1/projects</h4>
+                                                                        https://www.tm.torres93.com/api/v1/projects</h4>
                                                                 </a></div>
                                                             <div id=collapse-ProjectsControlOperations-ProjectsIndex class="panel-collapse collapse">
                                                                 <div class=panel-body>
@@ -8889,7 +8889,7 @@
                                                                         &nbsp;|&nbsp;
                                                                         <strong class="request-method border-warning">PUT</strong>
                                                                         &nbsp;
-                                                                        https://www.taskmaker.in/api/v1/tasks/1/assign_task</h4>
+                                                                        https://www.tm.torres93.com/api/v1/tasks/1/assign_task</h4>
                                                                 </a></div>
                                                             <div id=collapse-TasksControlOperations-AssignTask class="panel-collapse collapse">
                                                                 <div class=panel-body>
@@ -8927,7 +8927,7 @@
                                                                             Task</strong> &nbsp;|&nbsp;
                                                                         <strong class="request-method border-warning">PUT</strong>
                                                                         &nbsp;
-                                                                        https://www.taskmaker.in/api/v1/tasks/2/complete</h4>
+                                                                        https://www.tm.torres93.com/api/v1/tasks/2/complete</h4>
                                                                 </a></div>
                                                             <div id=collapse-TasksControlOperations-CompleteTask class="panel-collapse collapse">
                                                                 <div class=panel-body>
@@ -8958,7 +8958,7 @@
                                                                         &nbsp;|&nbsp;
                                                                         <strong class="request-method border-info">GET</strong>
                                                                         &nbsp;
-                                                                        https://www.taskmaker.in/api/v1/my_tasks</h4>
+                                                                        https://www.tm.torres93.com/api/v1/my_tasks</h4>
                                                                 </a></div>
                                                             <div id=collapse-TasksControlOperations-MyTasks class="panel-collapse collapse">
                                                                 <div class=panel-body>
@@ -8990,7 +8990,7 @@
                                                                             Destroy</strong> &nbsp;|&nbsp;
                                                                         <strong class="request-method border-danger">DELETE</strong>
                                                                         &nbsp;
-                                                                        https://www.taskmaker.in/api/v1/tasks/5</h4>
+                                                                        https://www.tm.torres93.com/api/v1/tasks/5</h4>
                                                                 </a></div>
                                                             <div id=collapse-TasksControlOperations-TaskDestroy class="panel-collapse collapse">
                                                                 <div class=panel-body>
@@ -9030,7 +9030,7 @@
                                                                         &nbsp;|&nbsp;
                                                                         <strong class="request-method border-info">GET</strong>
                                                                         &nbsp;
-                                                                        https://www.taskmaker.in/api/v1/tasks/2</h4>
+                                                                        https://www.tm.torres93.com/api/v1/tasks/2</h4>
                                                                 </a></div>
                                                             <div id=collapse-TasksControlOperations-TaskShow class="panel-collapse collapse">
                                                                 <div class=panel-body>
@@ -9070,7 +9070,7 @@
                                                                         &nbsp;|&nbsp;
                                                                         <strong class="request-method border-success">POST</strong>
                                                                         &nbsp;
-                                                                        https://www.taskmaker.in/api/v1/tasks</h4>
+                                                                        https://www.tm.torres93.com/api/v1/tasks</h4>
                                                                 </a></div>
                                                             <div id=collapse-TasksControlOperations-TaskStore class="panel-collapse collapse">
                                                                 <div class=panel-body>
@@ -9110,7 +9110,7 @@
                                                                         &nbsp;|&nbsp;
                                                                         <strong class="request-method border-warning">PUT</strong>
                                                                         &nbsp;
-                                                                        https://www.taskmaker.in/api/v1/tasks/1</h4>
+                                                                        https://www.tm.torres93.com/api/v1/tasks/1</h4>
                                                                 </a></div>
                                                             <div id=collapse-TasksControlOperations-TaskUpdate class="panel-collapse collapse">
                                                                 <div class=panel-body>
@@ -9149,7 +9149,7 @@
                                                                         &nbsp;|&nbsp;
                                                                         <strong class="request-method border-info">GET</strong>
                                                                         &nbsp;
-                                                                        https://www.taskmaker.in/api/v1/tasks</h4>
+                                                                        https://www.tm.torres93.com/api/v1/tasks</h4>
                                                                 </a></div>
                                                             <div id=collapse-TasksControlOperations-TasksIndex class="panel-collapse collapse">
                                                                 <div class=panel-body>
@@ -9195,7 +9195,7 @@
                                                                             Destroy</strong> &nbsp;|&nbsp;
                                                                         <strong class="request-method border-danger">DELETE</strong>
                                                                         &nbsp;
-                                                                        https://www.taskmaker.in/api/v1/users/3</h4>
+                                                                        https://www.tm.torres93.com/api/v1/users/3</h4>
                                                                 </a></div>
                                                             <div id=collapse-UsersControlOperations-UserDestroy class="panel-collapse collapse">
                                                                 <div class=panel-body>
@@ -9228,7 +9228,7 @@
                                                                         &nbsp;|&nbsp;
                                                                         <strong class="request-method border-info">GET</strong>
                                                                         &nbsp;
-                                                                        https://www.taskmaker.in/api/v1/users/2</h4>
+                                                                        https://www.tm.torres93.com/api/v1/users/2</h4>
                                                                 </a></div>
                                                             <div id=collapse-UsersControlOperations-UserShow class="panel-collapse collapse">
                                                                 <div class=panel-body>
@@ -9260,7 +9260,7 @@
                                                                         &nbsp;|&nbsp;
                                                                         <strong class="request-method border-success">POST</strong>
                                                                         &nbsp;
-                                                                        https://www.taskmaker.in/api/v1/users</h4>
+                                                                        https://www.tm.torres93.com/api/v1/users</h4>
                                                                 </a></div>
                                                             <div id=collapse-UsersControlOperations-UserStore class="panel-collapse collapse">
                                                                 <div class=panel-body>
@@ -9294,7 +9294,7 @@
                                                                         &nbsp;|&nbsp;
                                                                         <strong class="request-method border-warning">PUT</strong>
                                                                         &nbsp;
-                                                                        https://www.taskmaker.in/api/v1/users/3</h4>
+                                                                        https://www.tm.torres93.com/api/v1/users/3</h4>
                                                                 </a></div>
                                                             <div id=collapse-UsersControlOperations-UserUpdate class="panel-collapse collapse">
                                                                 <div class=panel-body>
@@ -9327,7 +9327,7 @@
                                                                         &nbsp;|&nbsp;
                                                                         <strong class="request-method border-info">GET</strong>
                                                                         &nbsp;
-                                                                        https://www.taskmaker.in/api/v1/users</h4>
+                                                                        https://www.tm.torres93.com/api/v1/users</h4>
                                                                 </a></div>
                                                             <div id=collapse-UsersControlOperations-UsersIndex class="panel-collapse collapse">
                                                                 <div class=panel-body>
